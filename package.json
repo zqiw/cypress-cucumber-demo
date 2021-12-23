@@ -1,0 +1,25 @@
+{
+  "name": "cypress-cucumber-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cy:debug": "cypress open"
+  },
+  "author": "zhuqi7",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/browserify-preprocessor": "^3.0.1",
+    "@types/cypress-cucumber-preprocessor": "^4.0.1",
+    "cypress": "^8.2.0",
+    "cypress-cucumber-preprocessor": "^4.2.0",
+    "resolve": "^1.20.0",
+    "tslint": "^5.12.1",
+    "typescript": "^4.3.5",
+    "tsify": "^4.0.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
